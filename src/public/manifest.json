@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Github Enhanced Comments",
+  "name": "GitHub Enhanced Comments",
   "description": "Use special keywords to insert the author from a issue or owner of the repo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "icons": {
     "16": "images/icon128.png",
     "48": "images/icon128.png",
