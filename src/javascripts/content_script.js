@@ -30,6 +30,12 @@ const replacements = {
   repo_name: () => {
     return $('.repohead-details-container h1 *[itemprop=name]').text();
   },
+  repo_url: () => {
+    return document.location.origin + $('.repohead-details-container h1 *[itemprop=name] a').attr('href');
+  },
+  owner_url: () => {
+    return document.location.origin + $('.repohead-details-container h1 span[itemprop=author] a').attr('href');
+  },
   owner: () => {
     const ownerName = $('.repohead-details-container h1 span[itemprop=author]').text();
     return `@${ownerName}`;
