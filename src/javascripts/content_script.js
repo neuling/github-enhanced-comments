@@ -28,10 +28,10 @@ const utilityFunctions = {
 
 const replacements = {
   repo_name: () => {
-    return $('h1.entry-title strong[itemprop=name]').text();
+    return $('.repohead-details-container h1 *[itemprop=name]').text();
   },
   owner: () => {
-    const ownerName = $('h1.entry-title span[itemprop=author]').text();
+    const ownerName = $('.repohead-details-container h1 span[itemprop=author]').text();
     return `@${ownerName}`;
   },
   author: () => {
