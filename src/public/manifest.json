@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "GitHub Enhanced Comments",
-  "description": "Automatically replaces placeholder like {repo_name} insude your issues and comments with actual values",
-  "version": "1.0.3",
+  "description": "Automatically replaces placeholder like {repo_name} inside your issues and comments with actual values",
+  "version": "1.0.4",
   "icons": {
     "16": "images/icon128.png",
     "48": "images/icon128.png",
